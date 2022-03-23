@@ -63,30 +63,11 @@
 			</section>
 			<!-- /hobbies -->
 
-
-			<!-- contacts with me -->
-			<section class="contacts bg-brown pyx section-style">
-				<h2 class="contacts__title title">Contact with me.</h2>
-				<form action="#">
-					<div class="contacts__item">
-						<label for="name">Your name: </label>
-						<input type="text" name="name" id="name">
-					</div>
-					<div class="contacts__item">
-						<label for="email">Your email: </label>
-						<input type="email" name="email" id="email" placeholder="olegpavlivdev93@gmail.com">
-					</div>
-					<input type="submit" value="Enter">
-				</form>
-			</section>
-			<!-- /contacts with me -->
-
-
 			<!-- exp -->
 			<section class="exp bg-orange pyx section-style">
 				<h2 class="exp__title title">My Experience</h2>
 
-				<table border="2">
+				<table class="exp__table">
 					<tr>
 						<th>Company</th>
 						<th>Position</th>
@@ -106,14 +87,44 @@
 			</section>
 			<!-- /exp -->
 
-
-
 			<!-- course -->
 			<section class="course bg-grey pyx section-style">
 				<h2 class="course__title title">Youtube course</h2>
-				<a href="course.html">YouTube Course</a>
+				<a class="course__link" href="course.html">YouTube Course</a>
 			</section>
 			<!-- /course -->
+
+			<!-- contacts with me -->
+			<section class="contacts  pyx section-style">
+				<h2 class="contacts__title title">Contact with me.</h2>
+				<form action="#">
+
+					<div class="row">
+						<div class="contacts__item">
+							<label for="name">Your name: </label>
+							<input type="text" name="name" id="name" placeholder="Enter your name">
+						</div>
+						<div class="contacts__item">
+							<label for="email">Your email: </label>
+							<input type="email" name="email" id="email" placeholder="olegpavlivdev93@gmail.com">
+						</div>
+					</div>
+
+					<div class=" contacts__item">
+						<label for="msg">Your message:</label>
+						<textarea name="msg" id="msg" cols="30" rows="5"></textarea>
+					</div>
+					<input class="contacts__btn" type="submit" value="Enter">
+				</form>
+			</section>
+			<!-- /contacts with me -->
+
+
+
+
+
+
+
 
 		</main>
 		<!-- /main -->
