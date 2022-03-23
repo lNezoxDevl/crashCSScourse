@@ -1,0 +1,106 @@
+/* default */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 20px "Arial", sans-serif;
+	background: #efefef;
+	color: #eee;
+}
+
+/* custom */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.py {
+	padding: 20px 0;
+}
+.pyx {
+	padding: 20px 20px;
+}
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.title {
+	font: 600 30px "Tahoma", sans-serif;
+	letter-spacing: 1.2px;
+	padding-bottom: 20px;
+	color: #eee;
+}
+.bg-blue {
+	background-color: blue;
+}
+.bg-green {
+	background-color: green;
+}
+.bg-grey {
+	background-color: grey;
+}
+.bg-brown {
+	background-color: brown;
+}
+.bg-orange {
+	background-color: orange;
+}
+.section-style {
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+/* header */
+.header__block {
+	display: flex;
+	align-items: center;
+}
+
+.header__img img {
+	border-radius: 10px;
+}
+.header__descr {
+	margin-left: 20px;
+}
+.header__text {
+	font-size: 25px;
+	letter-spacing: 1px;
+	color: #000;
+}
+
+/* header */
+
+/* social */
+.social__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+/* .social__item {
+	margin-bottom: 20px;
+}
+.social__item:last-child {
+	margin-bottom: 0;
+} */
+.social__link {
+	color: #fff;
+}
+
+.social__link:hover {
+	color: indianred;
+}
+.social__link:last-child {
+	margin-bottom: 0;
+}
+/* /social */
+
+/* hobbies */
+.hobbies__list {
+	list-style-position: inside;
+}
+.hobbies__item {
+	margin-bottom: 20px;
+}
+/* /hobbies */
